@@ -53,7 +53,7 @@ export default class App extends React.Component<*, *> {
     return (
       <Provider store={store}>
         <View style={styles.container}>
-          <Title title="To do AAAList" />
+          <Title title="To dos" />
           <List />
         </View>
       </Provider>

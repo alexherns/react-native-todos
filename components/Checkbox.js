@@ -23,12 +23,13 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   right: {
-    flex: 0.25,
+    width: 60,
     flexDirection: 'column',
-    justifyContent: 'center',
+    justifyContent: 'flex-end',
   },
   itemText: {
     fontSize: 18,
+    paddingRight: 15,
   },
 });
 
