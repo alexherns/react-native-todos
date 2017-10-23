@@ -24,7 +24,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   right: {
-    width: 60,
+    width: 65,
     flexDirection: 'column',
     justifyContent: 'flex-end',
   },
@@ -56,7 +56,7 @@ export default ({
       left={[{
       backgroundColor: '#80C21E',
       onPress: onComplete,
-      text: 'Finish',
+      text: completed ? 'Restart' : 'Finish',
     }]}
       right={[{
       backgroundColor: '#EA453E',

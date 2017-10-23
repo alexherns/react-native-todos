@@ -7,7 +7,8 @@ module.exports = {
   plugins: ["jest"],
   rules: {
     "object-curly-newline": 0,
-    "semi": 0,
+    "semi": "error",
+    "no-underscore-dangle": 0,
     "react/jsx-filename-extension": 0
   }
 };

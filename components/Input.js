@@ -14,13 +14,15 @@ type State = {
 const styles = StyleSheet.create({
   inputWrapper: {
     padding: 15,
+    borderBottomWidth: 0.5,
+    borderColor: 'lightgrey',
   },
   textInput: {
     fontSize: 18,
   },
 });
 
-class Input extends React.Component<Props, State> {
+class Input extends React.Component<{}, Props, State> {
   static defaultProps = {
   }
   state = {
